@@ -4,7 +4,7 @@ cd /home/ubuntu/cloud
 
 echo " i am in that folder"
 
-terraform destroy -auto-approve
+terraform init 
 
 #echo " initailised"
 
