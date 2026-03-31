@@ -29,3 +29,33 @@ This project automates cloud infrastructure deployment using Shell scripting and
 - Error handling and failure monitoring
 - Infrastructure provisioning on AWS
 
+##⚙️ Setup Instructions
+
+Step-by-step:
+1. Clone the repository
+   git clone https://github.com/your-username/automated-infrastructure-deployment.git
+
+2. Navigate to the project folder
+   cd automated-infrastructure-deployment
+
+3. Install Terraform
+
+4. Configure AWS credentials
+   aws configure
+
+5. Run deployment script
+   ./scripts/deploy.sh
+
+##⏰ Cron Job Setup
+
+Show how to schedule:
+crontab -e
+
+## Run deployment every day at 2 AM
+0 2 * * * /home/ubuntu/main.sh   >> /home/ubuntu/new1.log
+
+##📊 Logging & Monitoring
+
+Explain briefly:
+Logs are stored in the logs/ directory.
+Each execution records success/failure status and timestamps.
